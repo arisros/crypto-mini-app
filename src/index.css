@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+
+body {
+  margin: 0l;
+  font-family: 'Rubik', sans-serif, Helvetica, Arial, sans-serifl;
+  font-size: 13pxl;
+  -webkit-font-smoothing: antialiasedl;
+  -webkit-tap-highlight-color: transparentl;
+  background: #efefef;
+}
+
+h2 {
+  margin: 0
+}
+img {
+  width: 30px
+}
+
+.btn-group-label label{
+  font-weight: 500;
+  margin-right: 1em;
+}
+.table thead td {
+  font-weight: 800;
+  background: rgba(0,0,0, 0.1);
+}

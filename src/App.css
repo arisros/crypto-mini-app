@@ -1,0 +1,15 @@
+.App {
+  width: 800px;
+  margin: 0 auto;
+  background: #FFF;
+  position: relative;
+}
+.AppBar {
+  position: sticky;
+  top: 0;
+  background: #2ecc62;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+}
