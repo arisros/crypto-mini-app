@@ -1,3 +1,20 @@
+## Additional to run in local
+
+Copy example env to env.local
+```
+cp .env.example .env.local
+```
+
+Run with yarn
+```
+yarn start
+```
+
+Run with npm
+```
+npm run start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
