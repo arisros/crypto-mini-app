@@ -4,10 +4,17 @@ import { connect } from 'react-redux'
 import CryptoList from './CryptoList'
 import { FETCH_CRYPTO, DECREASE_BALANCE, FETCH_COINS } from '../constant/actionTypes'
 
+const intervalDelay = (60 * 1000) * 5
+
 export class Crypto extends Component {
   componentWillMount() {
     this.props.fetchCrypto()
+    this.interval = setInterval(() => this.props.fetchCrypto(), intervalDelay)
     this.props.fetchCoins()
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
   }
 
   render() {
